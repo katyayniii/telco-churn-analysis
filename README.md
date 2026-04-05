@@ -1,5 +1,5 @@
 # Customer Churn Analysis
-Analysed why telecom customers leave using a dataset of 7,032 records.
+Analysed customer churn patterns across 7,000+ telecom records using Python and Pandas — identified contract type, tenure, and billing as key drivers; deployed interactive dashboard live at [[your link]](https://telco-churn-analysis-hjxq4lgcmxy43a4jtkgnm2.streamlit.app/)
 
 ## 🔍 Key Findings
 - Month-to-month customers churn at **42%** vs 11% on annual contracts
