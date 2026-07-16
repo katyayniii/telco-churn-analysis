@@ -15,5 +15,9 @@ Python · Pandas · Matplotlib · Streamlit
 ## 🚀 Live Dashboard
 [Click here to view] https://telco-churn-analysis-hjxq4lgcmxy43a4jtkgnm2.streamlit.app/
 
+## Screenshots
+<img width="1464" height="788" alt="image" src="https://github.com/user-attachments/assets/f74312bc-76be-4835-981f-95da74dab3a3" />
+
+
 ## 📁 Dataset
 [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
