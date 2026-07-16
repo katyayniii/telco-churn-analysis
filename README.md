@@ -10,10 +10,22 @@ Analysed customer churn patterns across 7,000+ telecom records using Python and 
 Offer discounted annual contracts to new customers in their first 3 months.
 
 ## 🛠 Tech Stack
-Python · Pandas · Matplotlib · Streamlit
+
+- Python
+- Pandas
+- Matplotlib
+- Streamlit
 
 ## 🚀 Live Dashboard
 [Click here to view] https://telco-churn-analysis-hjxq4lgcmxy43a4jtkgnm2.streamlit.app/
+
+## ✨ Dashboard Features
+
+- Churn distribution
+- Contract type comparison
+- Monthly charges analysis
+- Tenure analysis
+- Interactive charts
 
 ## Screenshots
 <img width="1464" height="788" alt="image" src="https://github.com/user-attachments/assets/f74312bc-76be-4835-981f-95da74dab3a3" />
@@ -21,3 +33,10 @@ Python · Pandas · Matplotlib · Streamlit
 
 ## 📁 Dataset
 [Telco Customer Churn — Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+## 🚀 Future Improvements
+
+- Add machine learning models for churn prediction
+- Include additional filtering options
+- Deploy using Docker
+- Compare multiple classification models
