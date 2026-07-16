@@ -77,12 +77,19 @@ with col1:
     fig, ax = plt.subplots(figsize=(5, 3.5))
     stayed = df[df['Churn']==0]['MonthlyCharges']
     churned = df[df['Churn']==1]['MonthlyCharges']
-    bp = ax.boxplot([stayed, churned], labels=['Stayed','Churned'],
-                    patch_artist=True, widths=0.4,
-                    medianprops=dict(color='white', linewidth=2),
-                    whiskerprops=dict(color='#aaa'),
-                    capprops=dict(color='#aaa'),
-                    flierprops=dict(marker='o', color='#ccc', markersize=3))
+    bp = ax.boxplot(
+    [stayed, churned],
+    tick_labels=['Stayed', 'Churned'],
+    patch_artist=True,
+    widths=0.4,
+    medianprops=dict(color='white'),
+    whiskerprops=dict(color='#aaa'),
+    capprops=dict(color='#aaa'),
+    flierprops=dict(marker='o', color='#ccc', markersize=3)
+)
+
+
+  
     bp['boxes'][0].set_facecolor('#2ecc71')
     bp['boxes'][1].set_facecolor('#e74c3c')
     ax.set_ylabel('Monthly Charges ($)')
